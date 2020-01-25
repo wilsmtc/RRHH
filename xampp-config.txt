@@ -1,0 +1,11 @@
+<VirtualHost *:80>
+    DocumentRoot "C:\xampp\htdocs\controlparte\public"
+    DirectoryIndex  index.php
+    <Directory "C:\xampp\htdocs\controlparte">
+        AllowOverride All
+    </Directory>
+    ErrorLog "logs/servidor.local.com-error.log"
+    CustomLog "logs/servidor.local.com-access.log" combined
+</VirtualHost>
+
+

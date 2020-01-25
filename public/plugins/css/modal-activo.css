@@ -1,0 +1,64 @@
+.modal-dialog {
+  position: relative;
+  width: auto;
+  max-width: 600px;
+  margin: 10px;
+}
+.modal-sm {
+  max-width: 500px;
+}
+@media (min-width: 768px) {
+  .modal-dialog {
+    margin: 30px auto;
+  }
+}
+@media (min-width: 320px) {
+  .modal-sm {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
+
+.swal-modal {
+  background-color:  rgba(215, 44, 44, 0.9);
+  border: 2px solid white;
+}
+.swal-text {
+  padding: 17px;
+  display: block;
+  margin: 22px;
+  text-align: center;
+  color: #fff;
+}
+.swal-button--confirm {
+  padding: 7px 19px;
+  background-color: #5cb85c;
+  font-size: 13px;
+  border: 1px solid #3e8f3e;
+}
+
+.swal-button--confirm:hover {
+    background-color:#3e8f3e !important;
+}
+.swal-button--confirm:active {
+    position:relative;
+    top:1px;
+}
+.swal-button--cancel {
+  padding: 7px 19px;
+  background-color: #f0ad4e;
+  font-size: 13px;
+  border: 1px solid #eb9316;
+  color: white;
+}
+.swal-button--cancel:hover {
+    background-color:#eb9316 !important;
+}
+.swal-title {
+  margin: 0px;
+  font-size: 16px;
+  box-shadow: 0px 1px 1px rgba(255, 255, 255, 1);
+  margin-bottom: 28px ;
+
+  color:white;
+}
